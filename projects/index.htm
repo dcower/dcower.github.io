@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Dillon Cower</title>
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/css/portfolio.css" />
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400|Source+Sans+Pro:400,700,400italic|Source+Code+Pro|Istok+Web' rel='stylesheet' type='text/css' />
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+	<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-33922028-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+	</script>
+	<script src="/js/jquery-1.10.2.min.js"></script>
+	<script src="/js/lightbox-2.6.min.js"></script>
+	<link href="/css/lightbox.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="out">
+		<div id="page">
+			<header>
+				<a id="logo" href="http://www.dcower.com/">Dillon Cower</a>
+				<div id="header-buttons">
+					<a href="http://soundcloud.com/dilloncower">
+						<span class="fa-stack fa-lg" style="font-size:0.5em">
+							<i class="fa fa-cloud fa-stack-2x"></i>
+							<i class="fa fa-music fa-stack-1x" style="color:#333"></i>
+						</span></a>
+					<a href="https://github.com/dcower"><i class="fa fa-github"></i></a>
+					<a href="http://codegolf.stackexchange.com/users/3284/dillon-cower"><i class="fa fa-stack-exchange"></i></a>
+					<!--<a href="http://projecteuler.net/progress=dcower"><img src="images/pe_32.png" /></a>-->
+					<a href="http://www.linkedin.com/in/dcower"><i class="fa fa-linkedin"></i></a>
+				</div>
+			</header>
+
+			<ul id="menu">
+				<li><a href="/">Home</a></li>
+				<li><a id="menu-current" href="/projects">Projects</a></li>
+				<li><a href="/resume.pdf">Résumé</a></li>
+				<!-- <li><a href="/contact">Contact</a></li> -->
+				<!--<li><a href="http://soundcloud.com/dilloncower">Music</a></li>-->
+				<!--<li><a href="about">About</a></li>-->
+			</ul>
+
+			<div id="main">
+
+				<div class="post-header">
+					<span>
+						<h2>Inverse Kinematics Solver</h2>
+						<span class="tech">C++, Eigen, OpenGL, Leap Motion</span>
+					</span>
+					<time datetime="2013-03">March 2013</time>
+				</div>
+				<p>
+					<!-- <a href="img/rt1.png" data-lightbox="projects" title="Ray Tracer">
+						<img src="img/rt1.png"  class="project-right-img" />
+					</a> -->
+					As a project for my computer graphics simulation and animation class, I developed an inverse kinematics solver in C++ using the Eigen linear algebra library. The character in the program can follow (as if drawing on a chalkboard) a user-provided spline, or the user can control the character's hand placement in the world using the mouse or a Leap Motion device.
+					<br class="clear" />
+				</p>
+
+
+				<div class="post-header">
+					<span>
+						<h2>Ray Tracer</h2>
+						<span class="tech">C++, OpenMP</span>
+					</span>
+					<time datetime="2012-11">November 2012</time>
+				</div>
+				<p>
+					<a href="/img/rt1.png" data-lightbox="projects" title="Ray Tracer">
+						<img src="/img/rt1.png"  class="project-right-img" />
+					</a>
+					I developed a 3D ray tracer that supports triangular models, area lighting, dielectric surfaces, and some stochastic methods. I also developed and created unit tests for a vector/matrix math library and ray-primitive intersection routines.
+					<br class="clear" />
+				</p>
+
+
+				<div class="post-header">
+					<span>
+						<h2>Chameleon</h2>
+						<span class="tech">C++, OpenGL</span>
+					</span>
+					<time datetime="2012-10">October 2012</time>
+				</div>
+				<p>
+					<a href="/img/chameleon.jpg" data-lightbox="projects" title="Chameleon">
+						<img src="/img/chameleon.jpg" class="project-right-img" />
+					</a>
+					I designed/modeled/animated/directed an animated short using C++ and OpenGL for a project in an introductory computer graphics class I took.<br/><br/><a href="https://www.youtube.com/watch?v=otzomCrcVrA">You can view it on YouTube here.</a>
+					<!-- insert videos of it here -->
+					<br class="clear" />
+				</p>
+
+
+				<div class="post-header">
+					<span>
+						<h2>Ray Marcher</h2>
+						<span class="tech">C++, OpenGL, GLSL</span>
+					</span>
+					<time datetime="2012-08">August 2012</time>
+				</div>
+				<p>
+					<a href="/img/raymarcher.png" data-lightbox="projects" title="Ray Marcher">
+						<img src="/img/raymarcher.png" class="project-right-img" />
+					</a>
+					I wrote a GLSL shader that implements a real-time ray marcher using distance fields, capable of rendering 3D implicit surfaces, with the driver application written in C++/OpenGL. The distance fields are encoded directly in the shader using constructive solid geometry (CSG) techniques.
+					<!-- insert videos of it here -->
+					<br class="clear" />
+				</p>
+
+
+				<div class="post-header">
+					<span>
+						<h2>Cat Camera App</h2>
+						<span class="tech">Java, Android, OpenCV</span>
+					</span>
+					<time datetime="2012-04">April 2012</time>
+				</div>
+				<p>
+					<a href="/img/lokiapp.jpg" data-lightbox="projects" title="Cat Camera App">
+						<img src="/img/lokiapp.jpg" class="project-right-img" />
+					</a>
+					I created this app in a day to play with OpenCV support on Android. It takes a real time feed from the camera and then replaces human faces in view with cat faces.
+					<!-- insert videos of it here -->
+					<br class="clear" />
+				</p>
+
+
+				<div class="post-header">
+					<span>
+						<h2>Centripetal</h2>
+						<span class="tech">Python, Kivy, git</span>
+					</span>
+					<time datetime="2012-02">February 2012</time>
+				</div>
+				<p>
+					<a href="/img/centripetal.jpg" data-lightbox="projects" title="Centripetal">
+						<img src="/img/centripetal.jpg" class="project-right-img" />
+					</a>
+					I designed and developed an arcade-style game using the cross-platform Kivy UI framework in under 48 hours for the first Kivy Programming Contest, and it placed 4th. The game is essentially a circular version of the classic game Breakout.
+					<!-- insert videos of it here -->
+					<br class="clear" />
+				</p>
+
+
+<!-- 				<div class="post-header">
+					<span>
+						<h2>Code Golf and Project Euler</h2>
+						<span class="tech">C++, APL, Mathematica, Python</span>
+					</span>
+					<time datetime="2011-12">December 2011</time>
+				</div>
+				<p>
+					<br class="clear" />
+				</p> -->
+
+
+				<div class="post-header">
+					<span>
+						<h2>Flickr Wallpaper</h2>
+						<span class="tech">Java, Android, JUnit, OpenGL ES, Flickr REST API</span>
+					</span>
+					<time datetime="2011-05">May 2011</time>
+				</div>
+				<p>
+					I developed an Android Live Wallpaper to display a moving arrangement of Flickr images from the user’s geolocation. I utilized test-driven development using JUnit for a large portion of this project. I created a generic texture atlas / texture packing class, which can pack arbitrary size images into a single large texture; this is primarily to allow the wallpaper to run on OpenGL ES 1.x, where texture sizes are restricted to powers of two, but performance is generally better as well.
+					<!-- insert videos of it here -->
+					<br class="clear" />
+				</p>
+
+
+				<div class="post-header">
+					<span>
+						<h2>CUDA Wave Equation Simulation</h2>
+						<span class="tech">C++, Objective-C, CUDA</span>
+					</span>
+					<time datetime="2009-04">April 2009</time>
+				</div>
+				<p>
+					During my undergraduate research assistantship, I implemented a 2D wave equation simulation using CUDA, with OpenGL for rendering and a Wii Remote for infrared-pen-based input; I used Objective-C for the Wii Remote-pairing code. I presented an interactive display and poster for it at the 2009 Boise State University Undergraduate Research Conference. Title: "Towards Integrated Visualization and Computation of Fluid Flows on Modern Graphics Hardware"
+					<!-- insert videos of it here -->
+					<br class="clear" />
+				</p>
+
+
+				<div class="post-header">
+					<span>
+						<h2>CUDA Fluid Simulator</h2>
+						<span class="tech">C, C++, CUDA</span>
+					</span>
+					<time datetime="2009-02">February 2009</time>
+				</div>
+				<p>
+					As part of my research assistantship, I developed an interactive visualization for an existing 3D fluid dynamics simulation, using OpenGL for rendering and the Wii Remote for virtual reality head tracking (ala <a href="http://johnnylee.net/projects/wii/">Johnny Chung Lee</a>). As input to the visualization, I converted serial CPU-based Navier-Stokes simulation code in C to parallelized GPGPU code using CUDA.
+					<br class="clear" />
+				</p>
+
+
+				<div class="post-header">
+					<span>
+						<h2>CUDA Ray Tracer</h2>
+						<span class="tech">C++, CUDA</span>
+					</span>
+					<time datetime="2008-11">November 2008</time>
+				</div>
+				<p>
+					Using CUDA, I developed a GPU-accelerated real-time 3D ray tracer that supported (bounded) reflections and fake soft shadowing.
+					<br class="clear" />
+				</p>
+
+				<div class="post-header">
+					<span>
+						<h2>Spring Playground</h2>
+						<span class="tech">Flash, ActionScript</span>
+					</span>
+					<time datetime="2007-07">July 2007</time>
+				</div>
+				<p>
+					This is a game concept I developed for an Experimental Gameplay Competition where the goal was to create a game that fit the theme of "replay." I chose Flash because I had prototyped a few games in it prior to this project, and I found it to be a good platform for quick game concept development.
+					<br class="clear" />
+				</p>
+
+				<div class="post-header">
+					<span>
+						<h2>Replay Contest Concept</h2>
+						<span class="tech">Flash, ActionScript</span>
+					</span>
+					<time datetime="2007-07">July 2007</time>
+				</div>
+				<p>
+					This is a game concept I developed for an Experimental Gameplay Competition where the goal was to create a game that fit the theme of "replay." I chose Flash because I had prototyped a few games in it prior to this project, and I found it to be a good platform for quick game concept development.
+					<br class="clear" />
+				</p>
+
+
+				<div class="post-header">
+					<span>
+						<h2>String Theory</h2>
+						<span class="tech">C++, OpenGL, SDL, FMOD, TinyXML</span>
+					</span>
+					<time datetime="2006-08">August 2006</time>
+				</div>
+				<p>
+					<a href="/img/stringtheory.jpg" data-lightbox="projects" title="String Theory gameplay">
+						<img src="/img/stringtheory.jpg"  class="project-right-img" />
+					</a>
+					I developed this game during a summer in high school for the second Experimental Gameplay Competition, sponsored by RedOctane, where it won 1st place. It's a 2D platformer that features innovative octopus-like player movement. The goal of the competition was to create an original game that can be played using a DDR-style dance pad. I used an XML-based format for the levels, and I provided a level editor packaged with the game.
+					<br/><br/><a href="https://www.youtube.com/watch?v=gigUKRu-lVA">You can view it on YouTube here.</a>
+					<!-- give a video link / embed AND download for the game -->
+					<br class="clear" />
+				</p>
+
+				<div class="post-header">
+					<span>
+						<h2>Super Button Boy</h2>
+						<span class="tech">Python, Pygame</span>
+					</span>
+					<time datetime="2005-11">November 2005</time>
+				</div>
+				<p>
+					<a href="/img/superbuttonboy2.png" data-lightbox="projects" title="Super Button Boy gameplay">
+						<img src="/img/superbuttonboy2.png"  class="project-right-img"  />
+					</a>
+					I made this game for a week-long competition to create a game that uses only one button during gameplay (and no other user input), with the theme of "collecting." The player's score rises as she creates fireballs (encoded by one button press, a pause, and two more), and the player must jump over the holes in the ground to survive (encoded by two button presses, a pause, and one more).
+
+					<!-- give a video link / embed AND download for the game -->
+					<br class="clear" />
+				</p>
+
+			</div>
+
+			<footer>
+			    Copyright &copy; 2014 Dillon Cower. All rights reserved.
+			</footer>
+		</div>
+	</div>
+</body>
+</html>
