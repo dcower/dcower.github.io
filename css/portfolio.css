@@ -247,6 +247,19 @@ footer {
 	display: inline;
 }
 
+.project-title {
+	font-family: 'Istok Web', sans-serif;
+	color: #444;
+	font-weight: normal;
+	line-height: 1.0em;
+	margin: 0 0 5px 0;
+	padding: 0;
+	margin: 0;
+	font-size: ;
+	-webkit-text-stroke: 0.2px;
+	font-size: 24px;
+}
+
 .post-header {
 	display: flex;
 	flex-flow: row nowrap;
