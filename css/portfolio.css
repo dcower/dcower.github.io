@@ -22,9 +22,10 @@ h2 {
 	-webkit-text-stroke: 0.2px;
 }
 
-#main p {
+#main p  {
 	margin: 0;
 	margin-bottom: 50px;
+	
 }
 
 #main > :last-child {
